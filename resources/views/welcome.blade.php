@@ -8,7 +8,6 @@
     <title>Snad - Index</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
-    {{asset('website/')}}
     <!-- Favicons -->
     <link href="{{asset('website/assets/img/favicon.png')}}" rel="icon">
     <link href="{{asset('website/assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
