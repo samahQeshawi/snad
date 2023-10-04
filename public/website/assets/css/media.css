@@ -1,0 +1,284 @@
+@media (min-width: 1321px){
+    
+}
+@media (min-width: 1300px) and (max-width:1320px){
+    
+}
+@media (min-width: 1200.98px) and (max-width:1299px){
+    
+    
+}
+@media (min-width: 991.98px) and (max-width:1200px) {
+
+    .Top-Section .navbar .margin-Start {margin-right: 30px;}
+    .ExampleProducts .DataExample .title{width: 90%;}
+   
+}
+@media (min-width: 768px) and (max-width:991px) {
+    .nav {background-color: white !important;}
+    .Top-Section .navbar {padding-top: 15px;padding-bottom: 15px;}
+    .Top-Section .navbar .margin-Start {margin-right: 0px;}
+
+    .TopBar .DataBar .ImgTopBar{
+        width: 70%;
+        margin: auto;
+        margin-bottom: 20px !important;
+    }
+    .TopBar .DataBar .ImgTopBar img{
+        transform: scale(1,1);
+        left: 0%;
+        top: 0%;
+    }
+    .TopBar .DataBar .describeSanad .desctitle{width: 80%;}
+    .ExampleProducts .DataExample .ImgBar {width: 50%;margin: auto;}
+    .ExampleProducts .DataExample .title,
+    .ExampleProducts .DataExample .ExampleSlider .item p{width: 90%;}
+
+    .Sectors .datasector{width: 100%;}
+    .Sectors .datasector .dataItem {
+        transform: scale(1,1) !important;
+        margin-bottom: 10px;
+        left: 0% !important;
+        right: 0% !important;
+        top: 0px !important;
+        width: 100% !important;
+        height: 100px;
+    }
+    .Products .TypeProduct{width: 70%;}
+    .ContactData .DataCon span{font-size: 13px;}
+}
+@media (max-width: 767.98px) {
+
+    .bannerSection {height: 200px;}
+    .container {width: 97%;}
+    .nav.fixed-top {position: relative;}
+    .nav {background-color: white !important;}
+    .Top-Section .navbar {padding-top: 5px;padding-bottom: 5px;}
+    .Top-Section .navbar .margin-Start .nav-link{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 18px;
+    }
+    .Top-Section .navbar .margin-Start{
+        margin-right: 0px;
+    }
+
+    /* Questions Page */
+    .Questions .accordion {width: 100%;}
+    .Questions .accordion .accordion-item .accordion-button{font-size: 15px;line-height: 30px;}
+    .TopBradCumb h3{font-size: 20px;}
+    .TopBradCumb a{font-size: 12px;}
+
+
+    /* Privay Page */
+    .Privacy .privayItem p {
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    /* Navbar */
+    .Top-Section .navbar .margin-Start .nav-link,
+    .Top-Section .navbar .btnNav{text-align: center;}
+    .Top-Section .navbar .navbar-brand {
+        width: 80px;
+    }
+
+
+    /* index Page */
+    .TopBar .DataBar{
+        padding: 30px;
+        background-image:linear-gradient(rgba(0,73,71,1),rgba(0,109,105,1));
+        border-radius: 20px;
+    }
+    .TopBar .DataBar .describeSanad .title {
+        line-height: 30px;
+        font-size: 17px;
+    }
+    .TopBar .DataBar .describeSanad .desctitle {
+        font-size: 14px;
+        width: 90%;
+        line-height: 25px;
+    }
+    .TopBar .DataBar .ImgTopBar{width: 70%;margin: auto;}
+    .TopBar .DataBar .ImgTopBar img {
+        transform: scale(1,1);
+        left: 0%;
+        top: 0%;
+        
+    }
+    .TopBar .DataBar .SocialLink{
+        position: relative;
+        transform: translate(0% ,0%);
+        align-items: center;
+        justify-content: center;
+    }
+    .TopBar .DataBar .describeSanad .itemLink{width: 70%;margin: auto;}
+    .TopBar .DataBar .describeSanad .tryBtn {
+        padding: 5px 0px;
+        font-size: 15px;
+    }
+    .TopBar .DataBar .SocialLink a {
+        margin-bottom: 15px;
+        margin-left: 3px;
+        margin-right: 3px;
+        border: 1px solid white;
+        width: 30px;
+        height: 30px;
+    }
+    .SanadClient .clientTxt{background-image: none;}
+
+    .Sectors .SectorsDesc p{width: 100%;line-height: 30px;font-size: 13px;text-align: center;}
+    .Sectors .datasector .dataItem {
+        transform: scale(1,1) !important;
+        margin-bottom: 10px;
+        left: 0% !important;
+        right: 0% !important;
+        top: 0px !important;
+        width: 100% !important;
+        height: 100px;
+    }
+    .Sectors .datasector {width: 100%;margin-top: 15px !important;}
+    .RegisterNow .zkahLogo img{width: 100%;}
+    
+    .ExampleProducts .DataExample{padding: 20px 10px;}
+    .ExampleProducts .DataExample .title{width: 100%;line-height: 30px;font-size: 20px;}
+    .ExampleProducts .DataExample .ExampleSlider .item p{
+        width: 95%;
+        line-height: 25px;
+        font-size: 14px;
+    }
+    .ExampleProducts .DataExample .ExampleSlider .item .desctitle{font-size: 16px;}
+    .ExampleProducts .DataExample .ImgBar img {
+        width: 40%;
+    }
+    .Products .TypeProduct {
+        width: 100%;
+        top: 0px;
+        justify-content: center;
+        margin-top: 15px !important;
+    }
+    .RegisterNow .item-1 h3{font-size: 20px;}
+    .RegisterNow .item-1 p {
+        font-size: 12px;
+        line-height: 30px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .RegisterNow .forRegister {
+        padding: 15px 15px;
+    }
+    .RegisterNow .forRegister .form-control, 
+    .RegisterNow .forRegister select,
+    .RegisterNow .forRegister .btn {
+        height: 40px;
+        border-radius: 5px;
+        font-size: 13px;
+    }
+    .RegisterNow,.Products,
+    .ExampleProducts .DataExample,.Sectors {margin-bottom: 40px;}
+    .ContactData .DataCon span{font-size: 13px;}
+    
+}
+@media (max-width:575.98px) {
+   
+}
+
+@media (max-width:425.98px) {
+    .Questions .accordion .accordion-item .accordion-button{font-size: 13px;line-height: 30px;}
+    /* index Page */
+    .TopBar .DataBar{
+        padding: 10px;
+        background-image:linear-gradient(rgba(0,73,71,1),rgba(0,109,105,1));
+        border-radius: 20px;
+    }
+    .TopBar .DataBar .describeSanad .title {
+        line-height: 30px;
+        font-size: 15px;
+    }
+    .TopBar .DataBar .describeSanad .desctitle {
+        font-size: 12px;
+        width: 90%;
+        line-height: 25px;
+    }
+    .TopBar .DataBar .ImgTopBar{width: 100%;margin: auto;}
+    .TopBar .DataBar .ImgTopBar img {
+        transform: scale(1,1);
+        left: 0%;
+        top: 0%;
+    }
+    .TopBar .DataBar .SocialLink{
+        position: relative;
+        transform: translate(0% ,0%);
+        align-items: center;
+        justify-content: center;
+    }
+    .TopBar .DataBar .describeSanad .itemLink{width: 100%;}
+    .TopBar .DataBar .describeSanad .tryBtn {
+        padding: 5px 0px;
+        font-size: 15px;
+    }
+    .TopBar .DataBar .SocialLink a {
+        margin-bottom: 15px;
+        margin-left: 3px;
+        margin-right: 3px;
+        border: 1px solid white;
+        width: 30px;
+        height: 30px;
+    }
+    .SanadClient .clientTxt{background-image: none;}
+
+    .Sectors .SectorsDesc p{width: 100%;line-height: 30px;font-size: 13px;text-align: center;}
+    .Sectors .datasector .dataItem {
+        transform: scale(1,1) !important;
+        margin-bottom: 10px;
+        left: 0% !important;
+        right: 0% !important;
+        top: 0px !important;
+        width: 100% !important;
+        height: 100px;
+    }
+    .Sectors .datasector {width: 100%;margin-top: 15px !important;}
+    .RegisterNow .zkahLogo img{width: 100%;}
+    
+    .ExampleProducts .DataExample{padding: 20px 10px;}
+    .ExampleProducts .DataExample .title{width: 100%;line-height: 30px;font-size: 17px;}
+    .ExampleProducts .DataExample .ExampleSlider .item p{
+        width: 95%;
+        line-height: 25px;
+        font-size: 12px;
+    }
+    .ExampleProducts .DataExample .ExampleSlider .item .desctitle{font-size: 16px;}
+
+    .Products .TypeProduct {
+        width: 100%;
+        top: 0px;
+        justify-content: center;
+        margin-top: 15px !important;
+    }
+    .RegisterNow .item-1 h3{font-size: 20px;}
+    .RegisterNow .item-1 p {
+        font-size: 12px;
+        line-height: 30px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .RegisterNow .forRegister {
+        padding: 15px 15px;
+    }
+    .RegisterNow .forRegister .form-control, 
+    .RegisterNow .forRegister select,
+    .RegisterNow .forRegister .btn {
+        height: 40px;
+        border-radius: 5px;
+        font-size: 13px;
+    }
+    .RegisterNow,.Products,
+    .ExampleProducts .DataExample,.Sectors {margin-bottom: 40px;}
+    .ContactData .DataCon span{font-size: 13px;}
+}
+@media (max-width:375.98px) {
+    
+}
+@media (max-width:320.98px) {
+   
+}
