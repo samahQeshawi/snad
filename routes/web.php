@@ -12,6 +12,8 @@ use App\Http\Controllers\Dashboard\ContactUsController;
 use App\Http\Controllers\Dashboard\AuthController;
 use App\Http\Controllers\Dashboard\DashboardController;
 
+use App\Http\Controllers\Website\WebsiteController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -24,13 +26,11 @@ use App\Http\Controllers\Dashboard\DashboardController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
 
 //Auth::routes();
 
-Route::get('/home', [HomeController::class, 'index'])->name('home');
+//Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/changeLanguage', [HomeController::class, 'changeLanguage'])->name('changeLanguage');
 
 Route::group(['middleware' => 'web' ,'prefix' => 'admin/'], function () {
@@ -61,4 +61,13 @@ Route::group(['middleware' =>  ['auth:admin','SetLanguage'],'prefix' => 'admin/'
         Route::post('/logout', [AuthController::class,'logout'])->name('logout');
 
     });
+
+Route::group(['middleware' =>  'SetLanguage'], function() {
+
+    Route::get('/', [WebsiteController::class,'index'])->name('index');
+    Route::get('/contact', [WebsiteController::class,'contact'])->name('contact');
+    Route::get('/FAQs', [WebsiteController::class,'faq'])->name('faq');
+    Route::get('/privacy-policy', [WebsiteController::class,'privacyPolicy'])->name('privacyPolicy');
+
+});
 
